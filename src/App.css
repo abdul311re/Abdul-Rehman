@@ -1,3 +1,26 @@
+.pacifico-regular {
+  font-family: "Pacifico", serif;
+  font-style: normal;
+}
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 400 */
+
+.playwrite-gb-s-uniquifier {
+  font-family: "Playwrite GB S", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 700 */
+
+.dynapuff-uniquifier{
+  font-family: "DynaPuff", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+}
 .App {
   text-align: center;
 }
@@ -31,8 +54,10 @@
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
+    
   }
   to {
     transform: rotate(360deg);
+   
   }
 }
