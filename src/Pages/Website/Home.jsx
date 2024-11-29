@@ -1,10 +1,12 @@
-import Curve from "../../Assets/Curve-white.svg"
-import Tick from "../../Assets/Tick/Tick.png"
-import Pk from "../../Assets/pk.png"
+import Curve from "../../Assets/Curve-white.svg";
+import Tick from "../../Assets/Tick/Tick.png";
+import Pk from "../../Assets/pk.png";
+import Svg from "../../Components/Home/Svg";
+import Services from "../../Components/Home/Services";
 import Button from '@mui/material/Button';
+import "../../App.css";
 function Home (){
     const today = new Date();
-
     // Format date as needed
     const formattedDate = today.toLocaleDateString('en-US', {
         year: 'numeric',
@@ -38,7 +40,14 @@ function Home (){
             <img src={Tick} alt="Tick" className="w-8"/>
             </Button></div>
         </div>
+        <div className="lg:px-48 lg:pt-16 lg:pb-2 py-10 md:px-28 px-6">
+            <Svg/>
+        </div>
     </section>
+    <section>
+    <Services/>
+    </section>
+
     </>)
 }
 export default Home

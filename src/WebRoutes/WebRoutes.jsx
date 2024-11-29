@@ -2,8 +2,8 @@
 import React, { Suspense, lazy } from 'react';
 import { Routes, Route , Navigate} from 'react-router-dom';
 
-const Firstpage = lazy(() => import('../Pages/Career/Firstpage'));
-const Secondpage = lazy(() => import('../Pages/Career/Secondpage'));
+const Firstpage = lazy(() => import('../Pages/Career/Firstpage.jsx'));
+const Secondpage = lazy(() => import('../Pages/Career/Secondpage.jsx'));
 const Home = lazy(() => import('../Pages/Website/Home.jsx'))
 const Website = lazy(() => import('../Pages/Website/Website.jsx'));
 

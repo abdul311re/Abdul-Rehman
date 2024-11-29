@@ -15,6 +15,14 @@ module.exports = {
       margin: {
         '-50': '-50px',
       },
+      fontSize: {
+        '6.3xl': '4.2rem',      // Custom size of 5rem
+        '7.5xl': '5.5rem',
+        '1.3xl' : '1.3rem' // Custom size of 5.5rem
+      },
+      lineHeight: {
+        'extra-loose': '10',
+      },
     },
   },
   plugins: [],

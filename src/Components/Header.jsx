@@ -37,7 +37,7 @@ const products = [
   { name: 'Automations', description: 'Build strategic funnels that will convert', href: '#', icon: ArrowPathIcon },
 ]
 const Services = [
-  { name: 'Website Development', description: 'Get a better understanding of your traffic', Route:'/Website', icon: ChartPieIcon },
+  { name: 'Website Development' , description: 'Get a better understanding of your traffic', Route:'/Website', icon: ChartPieIcon },
   { name: 'Wordpress Development', description: 'Speak directly to your customers', href: '#', icon: CursorArrowRaysIcon },
   { name: 'Shopify Development', description: 'Your customers’ data will be safe and secure', href: '#', icon: FingerPrintIcon },
   { name: 'Mobile Development', description: 'Connect with third-party tools', href: '#', icon: SquaresPlusIcon },
@@ -141,7 +141,7 @@ export default function Header() {
     </div>
         </div>
         <PopoverGroup className="hidden md:flex lg:gap-x-8 sm:gap-x-6">
-        <a href="#" className="text-base font-semibold leading-6 text-gray-900 py-1">
+          <a href="#" className="text-base font-semibold leading-6 text-gray-900 py-1">
             Home
           </a>
           <Popover className="relative">
